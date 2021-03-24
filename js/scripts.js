@@ -11,6 +11,6 @@ $(document).ready(function () {
     $(".date").text(dateInput);
     $(".time").text(timeInput);
 
-    $("body").load("success.html");
+    $(location).attr("href", "success.html");
   });
 });
