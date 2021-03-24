@@ -6,6 +6,9 @@ $(document).ready(function () {
     const dateInput = $("input#date").val()
     const timeInput = $("input#time").val()
 
-    $().append(person)
+    $(".name").text(nameInput);
+    $(".desc").text(descInput);
+    $(".date").text(dateInput);
+    $(".time").text(timeInput);
   })
 })
